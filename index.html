@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .introSecand {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .introSecand .text {
+             flex: 0.5; 
+           
+        }
+
+        .imagesPage2 {
+            display: flex;
+            align-items: center;
+            flex: 1; /* Take up remaining space */
+        
+        }
+
+        .imagesPage2 img {
+            width: 40%;
+            height: auto;
+            
+
+           
+        }
+        
+
+        .introSecand .h2 {
+            font-size: 4rem;
+            line-height: 1.2;
+            font-weight: 800;
+            font-family: "Avenir";
+        }
+
+        .imagesMainPart2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .imagesMainPart2 img {
+            width: 30%;
+            height: auto;
+            margin-top: 1em;
+        }
+        .lowpic{
+            margin-top: 10em;
+            margin-left: 1em;
+        }
+.primaryButton{
+        border-radius: 14%;
+  padding: .7rem 1.5rem;
+  background-color: #252525;
+  color: aliceblue;
+}
+
+@media (max-width: 600px) {
+            .imagesMainPart2 img {
+                width: 48%; 
+                margin-top: 1em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header class="introSecand">
+        <div class="text">
+            <h2>Discover the beauty around the world</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
+            <button class="primaryButton">Get started</button>
+        </div>
+        <div class="imagesPage2">
+            <img src="asssets/Image left.png" alt="">
+            <img  class="lowpic" src="asssets/Image right.png" alt="">
+        </div>
+    </header>
+    <main class="imagesMainPart2">
+        <img src="asssets/Frame 14155.png" alt="">
+        <img src="asssets/Frame 14156.png" alt="">
+        <img src="asssets/Frame 14157.png" alt="">
+    </main>
+</body>
+</html>
